@@ -17,29 +17,6 @@ This project is a web application developed to provide functionalities related t
    - [Uploaded](#uploaded)
 7. [Conclusion](#conclusion)
 
-## Project Structure <a name="project-structure"></a>
-
-The project follows a standard React application structure:
-
-project-root/
-│
-├── public/
-│ ├── index.html
-│ └── ...
-│
-├── src/
-│ ├── components/
-│ │ ├── UploadFrame.js
-│ │ ├── FrameSignIn.js
-│ │ ├── FrameRegistration.js
-│ │ └── ...
-│ ├── pages/
-│ │ ├── SignIn.js
-│ │ ├── Uploaded.js
-│ │ └── ...
-│ ├── App.js
-│ └── index.js
-
 
 ## Components Overview <a name="components-overview"></a>
 
