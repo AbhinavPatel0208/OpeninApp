@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=AvertaStd-Regular:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
+
+/* Add this at the end of your CSS file */
+@media only screen and (max-width: 360px) {
+ 
+ 
+
+  /* Styles for FrameSignIn component */
+ 
+  .h1{
+    display: none ;
+  }
+  .social{
+    bottom: 0;
+    display: none;
+  }
+  .left{
+    width: 500px;
+    height: 100px;
+  }
+  .logo{
+    top: 5px;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    
+  }
+  .logo-img{
+    position: absolute;
+    top: 30px;
+    left: 2;
+  }
+
+  /* Styles for FrameRegistration component */
+  .form{
+     margin-top: 0%;
+     width: 300px;
+     height: auto;
+     
+  }
+  .form-div{
+    width: 240px;
+    margin-right: 10px;
+  }
+
+ 
+}
+
+/* Mobile view styles */
+.mobile-only {
+  display: none;
+}
+
+/* Media query for screens larger than 360px */
+@media (min-width: 361px) {
+  .mobile-only {
+    display: none; /* Hide toggle button on larger screens */
+  }
+
+  
+}
+
+/* Media query for screens up to 360px */
+@media (max-width: 360px) {
+  .mobile-only {
+    display: block;
+     /* Show toggle button on smaller screens */
+  }
+  .nav{
+    width: 300px;
+  }
+  .section{
+    width: 10px;
+    /* margin-right: 100px; */
+  }
+  .uploading{
+    margin-right: 20px;
+    width: 310px;
+    /* height: 200px; */
+  }
+  .form-table-container {
+    width: 300px;
+    padding: 0 10px; /* Adjust padding for form container */
+  }
+
+  .form-table-row {
+    
+    align-items: stretch;
+    justify-content: center;
+    float: left;
+    clear: both;
+    box-sizing: border-box;
+   
+    height:fit-content;
+    width: 500px; /* Stack elements vertically */
+  }
+
+  .form-table-cell {
+    width: 100%; /* Full width for each cell */
+    margin-bottom: 10px; /* Space out cells */
+  }
+
+  .form-table-header {
+    display: none; /* Optionally hide the header on small screens */
+  }
+
+  
+}
+
