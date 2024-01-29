@@ -1,4 +1,16 @@
+// Imports: React, useCallback, useNavigate are imported from their respective libraries.
 
+// Component: FrameRegistration is a functional component representing a registration form.
+
+// State: navigate is obtained using the useNavigate hook for programmatic navigation.
+
+// Event Handling: onButtonPrimaryClick is a callback function using useCallback to navigate to "/upload".
+
+// JSX Structure: The form includes input fields for email and password, along with sign-in buttons for Google and Apple.
+
+// Functionality: Users can sign in with Google or Apple, input their email and password, and click "Sign In" to navigate to "/upload". There's also a link to register.
+
+// Export: FrameRegistration is exported as the default component.
 
 import React, { useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';

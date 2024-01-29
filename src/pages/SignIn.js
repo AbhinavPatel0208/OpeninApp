@@ -1,3 +1,17 @@
+// Component Definition:
+// SignIn is a functional component used to render the sign-in page UI.
+
+// Imports:
+// FrameSignIn and FrameRegistration components are imported from "../components".
+
+// JSX Structure:
+// Contains a div element with Tailwind CSS classes for styling.
+// Includes FrameSignIn and FrameRegistration components for displaying sign-in and registration forms.
+// Utilizes Tailwind CSS classes for responsive design and layout.
+
+// Export:
+// The SignIn component is exported as the default export of the module.
+
 import FrameSignIn from "../components/FrameSignIn";
 import FrameRegistration from "../components/FrameRegistration";
 

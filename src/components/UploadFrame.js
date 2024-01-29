@@ -1,4 +1,31 @@
-import { useState,useEffect } from "react";
+// Component Definition:
+// UploadFrame is a functional component used to display an upload frame UI.
+
+// Props:
+// menuAlignSelf: Alignment style for the menu.
+// menuHeight: Height of the menu.
+// bGAlignSelf: Background alignment style.
+// fRAMEAlignSelf: Alignment style for the frame.
+
+// State:
+// isSidebarOpen: State variable to control the visibility of the sidebar, initialized as false.
+// toggleSidebar(): Function to toggle the isSidebarOpen state.
+
+// Effect:
+// Utilizes the useEffect hook to handle window resize events.
+// Adjusts the isSidebarOpen state based on window width.
+
+// JSX Structure:
+// Contains a button to toggle the sidebar.
+// Uses conditional rendering to show/hide the sidebar based on the isSidebarOpen state.
+// Includes various navigation items within the sidebar, styled using Tailwind CSS classes.
+// Each navigation item consists of an icon and text.
+
+// Export:
+// The UploadFrame component is exported as the default export of the module.
+
+
+import { useState, useEffect } from "react";
 const UploadFrame = ({ menuAlignSelf, menuHeight, bGAlignSelf, fRAMEAlignSelf }) => {
 
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);

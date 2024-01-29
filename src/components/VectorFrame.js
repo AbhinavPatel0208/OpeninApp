@@ -1,3 +1,28 @@
+// Component Definition:
+// VectorFrame is a functional component used to display a vector frame UI.
+
+// Imports:
+// useCallback is imported from the React library for memoizing callback functions.
+// useNavigate is imported from the React Router DOM library for programmatic navigation.
+// Controls component is imported from "./Controls".
+
+// State Management:
+// navigate is obtained using the useNavigate hook for programmatic navigation.
+
+// Event Handling:
+// onSizemdIconLeftTypePrimaClick is a memoized callback function that navigates to "/uploading" when triggered.
+
+// JSX Structure:
+// Contains a section element with various Tailwind CSS classes for styling.
+// Includes nested elements like div and h3 for content display.
+// Utilizes the Controls component passing propOpacity and onSizemdIconLeftTypePrimaClick as props.
+
+// Export:
+// The VectorFrame component is exported as the default export of the module.
+
+
+
+
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import Controls from "./Controls";

@@ -1,0 +1,78 @@
+- components
+  - FrameSignIn.js
+  - FrameRegistration.js
+  - UploadFrame.js
+  - VectorFrame.js
+- pages
+  - SignIn.js
+  - Upload.js
+  - Uploaded.js
+  - Uploading.js
+- hooks
+  - useState.js
+  - useEffect.js
+  - useCallback.js
+  - useNavigate.js
+- libraries
+  - XLSX.js
+
+
+
+$Components
+1. FrameSignIn
+Description: This component renders the sign-in frame.
+Props:
+None
+2. FrameRegistration
+Description: This component renders the registration frame.
+Props:
+None
+3. SignIn
+Description: This component combines FrameSignIn and FrameRegistration components to render the sign-in page.
+========================================================================================================
+$Props:
+None
+4. UploadFrame
+Description: This component renders the upload frame with sidebar navigation.
+Props:
+menuAlignSelf: Align self for menu
+menuHeight: Height of the menu
+bGAlignSelf: Background alignment self
+fRAMEAlignSelf: Frame alignment self
+5. VectorFrame
+Description: This component renders the vector frame.
+Props:
+None
+6. Upload
+Description: This component combines UploadFrame and VectorFrame components to render the upload page.
+Props:
+None
+7. Uploaded
+Description: This component renders the uploaded data with a table.
+Props:
+None
+8. Uploading
+Description: This component renders the uploading page with file upload functionality.
+Props:
+None
+=========================================================================================================
+$Hooks
+1. useState
+Description: Used for managing component state.
+Location: Imported from React.
+2. useEffect
+Description: Used for handling side effects in components.
+Location: Imported from React.
+3. useCallback
+Description: Used for memoizing callback functions.
+Location: Imported from React.
+4. useNavigate
+Description: Used for programmatic navigation.
+Location: Imported from React Router DOM.
+=========================================================================================================
+$Libraries
+1. XLSX
+Description: A library for parsing and manipulating Excel files.
+Location: Imported as * from "xlsx".
+=========================================================================================================
+

@@ -1,3 +1,14 @@
+// Utilizes useNavigate from React Router DOM for navigation.
+// Defines a callback function onSizemdIconLeftTypePrimaClick to navigate to the "/uploaded" route.
+// Renders UI layout using HTML and Tailwind CSS.
+// Integrates with the UploadFrame component to display a common frame for uploading.
+// Displays an interface for uploading CSV files.
+// Renders a section for uploading a specific template file with associated actions.
+// Implements functionality to remove the uploaded template.
+// Handles click events for navigation and actions.
+// Exports Uploading as the default component.
+
+
 import { useCallback } from "react";
 import UploadFrame from "../components/UploadFrame";
 import { useNavigate } from "react-router-dom";

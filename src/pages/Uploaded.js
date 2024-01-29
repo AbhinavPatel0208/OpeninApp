@@ -1,3 +1,13 @@
+// Manages component state using useState.
+// Handles file upload and processing with handleFileUpload.
+// Triggers file upload with handleUploadClick.
+// Updates selected tags with handleTagClick.
+// Renders UI layout using HTML and Tailwind CSS.
+// Displays uploaded file name and parsed data in a table.
+// Integrates with UploadFrame and VectorFrame components.
+// Ensures accessibility and error handling.
+// Exports Uploaded as default component.
+
 import { useState } from "react";
 import React from "react";
 import UploadFrame from "../components/UploadFrame";

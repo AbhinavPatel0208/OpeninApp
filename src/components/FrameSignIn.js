@@ -1,3 +1,15 @@
+// Component Purpose: Represents a sign-in section of a UI.
+
+// Layout: Uses a fixed-width container with specific padding and positioning.
+
+// Content:
+// Displays a heading "BASE" and social icons (images) for sign-in options.
+// Utilizes absolute positioning for a background image and a logo.
+
+// Styling: Styling is achieved using Tailwind CSS classes.
+
+// Export: The component is exported as the default export of the module.
+
 const FrameSignIn = () => {
   return (
     <div className="FrameSignIn  w-[720px] flex flex-col items-center justify-start pt-[463px] pb-[68px] pr-[161px] pl-5 box-border relative gap-[357px] min-w-[720px] max-w-full text-left text-53xl text-light-gohan font-montserrat lg:flex-1 mq1050:pt-[301px] mq1050:pb-11 mq1050:box-border mq1050:min-w-full mq450:pt-[196px] mq450:pb-[29px] mq450:box-border mq750:gap-[178px] mq750:pr-20 mq750:box-border">

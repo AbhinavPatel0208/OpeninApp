@@ -1,4 +1,5 @@
-
+// This functional component represents the Controls UI component.
+// It takes props for opacity and onClick handler.
 
 const Controls = ({ propOpacity, onSizemdIconLeftTypePrimaClick }) => {
   return (
