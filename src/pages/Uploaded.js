@@ -1,3 +1,28 @@
+// State Management: The component uses the useState hook to manage the following states:
+// tableData: An array to store formatted data from the uploaded file.
+// uploadedFileName: A string to store the name of the uploaded file.
+// selectedTagsMap: An object to store selected tags for each row in the table.
+// selectedFile: A file object to store the selected file.
+// selectedFileName: A string to store the name of the selected file.
+
+// File Handling:
+// handleFileChange: This function is called when a file is selected using the file input. It sets the selectedFile state to the selected file and updates the selectedFileName state with the name of the selected file.
+
+// File Upload:
+// handleFileUpload: This function is called when the user clicks the "Upload" button. It reads the selected file using FileReader, parses it using xlsx, and updates the tableData state with the parsed data. It also updates the uploadedFileName state with the name of the uploaded file.
+
+// Tag Handling:
+// handleTagClick: This function is called when a tag is clicked for a specific row in the table. It updates the selectedTagsMap state with the selected tags for the corresponding row.
+
+// File Removal:
+// handleDeleteFile: This function is called when the user clicks the "Remove" button. It resets all states related to the uploaded file, including tableData, uploadedFileName, selectedFile, and selectedFileName.
+
+// Component Rendering:
+// The component renders a UI for uploading files, displaying uploaded file information, and rendering a table with data from the uploaded file. It also provides functionality for adding and removing tags for each row in the table.
+
+
+
+
 import { useState } from "react";
 import React from "react";
 import UploadFrame from "../components/UploadFrame";
