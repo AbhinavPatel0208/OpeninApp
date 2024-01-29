@@ -19,7 +19,7 @@ const FrameRegistration = () => {
   const navigate = useNavigate();
 
   const onButtonPrimaryClick = useCallback(() => {
-    navigate("/upload");
+    navigate("/uploaded");
   }, [navigate]);
 
   return (
